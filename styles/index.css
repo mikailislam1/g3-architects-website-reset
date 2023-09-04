@@ -14,6 +14,11 @@
     border-radius: 8px;
     background: #FF900E;
 }
+.text-light-gray{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #727272;
+}
 /* header styles */
 header{
     background: rgba(255, 144, 14, 0.10);
@@ -37,7 +42,7 @@ nav li a{
     text-decoration: none;
     color: #424242;
 }
-.nav-title{
+.section-title{
     color: #131313;
 font-size: 3rem;
 font-weight: 700;
@@ -53,11 +58,7 @@ font-weight: 700;
     font-weight: 700;
     color: #131313;
 }
-.banner-description{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #727272;
-}
+
 .banner img{
     width: 100%;
     margin-top: 20px;
@@ -100,11 +101,7 @@ main{
     font-weight: 700;
     color: #FF900E;
 }
-.teams-content-description{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #727272;
-}
+
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width:576px) {
