@@ -72,6 +72,8 @@ main{
 .teams-container{
     display: flex;
     align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .teams-image-container{
     display: grid;
@@ -111,6 +113,14 @@ main{
     }
     nav{
         flex-direction: column;
+    }
+    .teams-container{
+        flex-direction: column;
+    }
+    .teams-image-container{
+        grid-template-columns: 1fr;
+        /* no repeat */
+        padding: 0 10px;
     }
 }
 /* tablet/medium devices */
